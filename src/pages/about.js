@@ -35,7 +35,7 @@ const About = () => {
                             </p>
                             <p className="font-medium my-4">
                                 My approach to data science goes beyond just
-                                crunching numbers—it's about
+                                crunching numbers—it&apos;s about
                                 discovering patterns, solving problems,
                                 and creating data-driven strategies that empower decision-making.
                             </p>
