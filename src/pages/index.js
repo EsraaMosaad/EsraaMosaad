@@ -36,7 +36,7 @@ export default function Home() {
               text="Transforming Ideas into Impact Through Data and Innovation"/>
              
               <p className='my-4 text-base font-medium  md:text-sm sm:text-xs'>
-                Hi, I'm Esraa, a passionate data scientist, who loves to learn new technologies and build solutions, I am dedicated to transforming data into actionable insights. Explore my latest projects , showcasing my expertise in analytics and AI
+                Hi, I&apos;m Esraa, a passionate data scientist, who loves to learn new technologies and build solutions, I am dedicated to transforming data into actionable insights. Explore my latest projects , showcasing my expertise in analytics and AI
               </p>
 
               <div className='flex items-center self-start mt-2 lg:self-center'>

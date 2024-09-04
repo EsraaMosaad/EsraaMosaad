@@ -26,7 +26,7 @@ const About = () => {
                             <h2 className="mb-4 text-lg font-bold uppercase 
                         text-dark/75 dark:text-light/75">About Me</h2>
                             <p className="font-medium">
-                                Hi, I'm Esraa, a passionate data scientist and AI
+                                Hi, I&apos;m Esraa, a passionate data scientist and AI
                                 enthusiast dedicated to turning data into
                                 actionable insights. With a strong foundation in
                                 data analysis and  machine learning, I thrive on
@@ -40,7 +40,7 @@ const About = () => {
                                 and creating data-driven strategies that empower decision-making.
                             </p>
                             <p className="font-medium">
-                                Whether I'm developing predictive models,
+                                Whether I&apos;m developing predictive models,
                                 analyzing big data, or building AI-driven applications,
                                 I bring my commitment to excellence and a user-focused mindset to every project I undertake.
                                 I look forward to applying my expertise and passion to help you unlock the full potential
