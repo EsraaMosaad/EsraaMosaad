@@ -44,6 +44,15 @@ const Experience = () => {
                  className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
                  md:w-[2px] md:left-[30px] xs:left-[20px]"/>
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2" >
+                    <ExperienceCard
+                    position={' IBM Data Scientist'}
+                    company={'Digital Egypt Pioneers Initiative - DEPI'}
+                    companyLink={'https://depi.gov.eg/'}
+                    time={'Apr 2024 - Sep 2024'}
+                    address={'Cairo'}
+                    work={'Developed a Streamlit dashboard for the Spotify dataset with interactive visualizations of artists, built a web scraping tool to automate data extraction for top IT companies worldwide, enhancing data collection efficiency, and performed exploratory data analysis (EDA) on various datasets, uncovering key insights through Python visualizations.'}
+                     />
+
                    <ExperienceCard 
                    position={'AI Intern'}
                    company={'ASDC '}
@@ -65,7 +74,7 @@ const Experience = () => {
                     position={'AI Intern'}
                     companyLink={'https://www.nti.sci.eg/'}
                     company={'National Telecommunication Institute (NTI)'}
-                    time={'Oct 2023 - Nov 2023'}
+                    time={'Sep 2022 - Sep 2022'}
                     address={'Nasr City'}
                     work={
                         'Gained proficiency in data preparation for machine learning, utilized various datasets, explored diverse models including Naive Bayes, SVM, CNNs, and RNNs, collaborated on a research project, and enhanced communication skills through group presentations. an AI model to detect anomalies in medical imaging data, and used it to predict patient outcomes.'}
