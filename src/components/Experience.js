@@ -45,12 +45,20 @@ const Experience = () => {
                  md:w-[2px] md:left-[30px] xs:left-[20px]"/>
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2" >
                     <ExperienceCard
-                    position={' IBM Data Scientist'}
+                    position={'IBM Data Scientist'}
                     company={'Digital Egypt Pioneers Initiative - DEPI'}
                     companyLink={'https://depi.gov.eg/'}
                     time={'Apr 2024 - Sep 2024'}
                     address={'Cairo'}
                     work={'Developed a Streamlit dashboard for the Spotify dataset with interactive visualizations of artists, built a web scraping tool to automate data extraction for top IT companies worldwide, enhancing data collection efficiency, and performed exploratory data analysis (EDA) on various datasets, uncovering key insights through Python visualizations.'}
+                     />
+                     <ExperienceCard
+                    position={'Data Evaluator - Google Data Services Projects (Bard Rating)'}
+                    company={'RWS'}
+                    companyLink={'https://www.rws.com/'}
+                    time={'Apr 2024 - Present'}
+                    address={'Remote'}
+                    work={'Evaluated the responses of the AI model Bard, focusing on the quality, relevance, and accuracy of generated content. Provided detailed feedback on AI outputs to enhance model performance and user experience, utilizing analytical skills to rate responses based on specific criteria and ensuring alignment with project standards.'}
                      />
 
                    <ExperienceCard 
