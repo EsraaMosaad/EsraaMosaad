@@ -18,7 +18,7 @@ const projectsData = [
         types: ["NLP","Recommendation Systems","Data processing"],
         title: "Job Recommendation and Filtering System",
         img: project_1_img,
-        link: "https://www.canva.com/design/DAFnrTtnyBc/wDG92qtlamPBourWG-04BQ/edit?utm_content=DAFnrTtnyBc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        link: "https://github.com/EsraaMosaad/GP_Job-Recommendation-and-Filtering_doc/blob/main/app.py",
         github: "https://github.com/EsraaMosaad/GP_Job-Recommendation-and-Filtering_doc/tree/main"
     },
     {
