@@ -40,7 +40,7 @@ const projectsData = [
         types: ["Computer Vision"],
         title: "Semantic Segmentation for Soccer Analytics Using U-Net",
         img: project_4_img,
-        link: "/",
+        link: "https://github.com/EsraaMosaad/ASDC-AI-Data-analysis-internship/blob/main/Task%203/FOOTBALL%20SEMANTIC%20SEGMENTATION(resize%20img).ipynb",
         github: "https://github.com/EsraaMosaad/ASDC-AI-Data-analysis-internship/blob/main/Task%203/Report.md"
     },
     
