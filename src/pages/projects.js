@@ -11,7 +11,7 @@ import projectsData from "@/components/projectsData";
 
 const FramerImage = motion(Image);
 
-const Project = ({ types, title, img, link, github }) => {
+{/*const Project = ({ types, title, img, link, github }) => {
     return (
         <article className="w-full flex flex-col items-center justify-center rounded-br-2xl rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4">
             <div className="absolute top-0 -right-3 -z-10 w-[100%] h-[102%] rounded-[2rem] rounded-br-2xl bg-dark dark:bg-light md:-right-2 md:w-full xs:h-[102%] xs:rounded-[1.5rem]" />
@@ -30,7 +30,36 @@ const Project = ({ types, title, img, link, github }) => {
             </div>
         </article>
     );
+}*/}
+const Project = ({ types, title, img, link, github }) => {
+    return (
+        <article className="w-full flex flex-col items-center justify-center rounded-br-2xl rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4">
+            <div className="absolute top-0 -right-3 -z-10 w-[100%] h-[102%] rounded-[2rem] rounded-br-2xl bg-dark dark:bg-light md:-right-2 md:w-full xs:h-[102%] xs:rounded-[1.5rem]" />
+            <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
+                <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }} priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
+            </Link>
+            <div className="w-full flex flex-col items-start justify-between mt-4">
+                <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">{types.join(', ')}</span>
+                <Link href={link} target="_blank" className="hover:underline underline-offset-2">
+                    <h2 className="my-2 w-full text-left font-bold text-3xl lg:text-2xl">{title}</h2>
+                </Link>
+                <div className="w-full mt-2 flex items-center justify-between">
+
+                    {github && ( // شرط لإظهار أيقونة GitHub فقط إذا كان الرابط موجودًا
+                        <Link href={github} target="_blank" className="w-8 md:w-6">
+                            <GithubIcon />
+                        </Link>
+                    )}
+
+                    {link && ( // شرط لإظهار أيقونة link فقط إذا كان الرابط موجودًا
+                        <Link href={link} target="_blank" className="text-lg font-semibold underline text-dark/75 dark:text-light/75 md:text-base">Visit</Link>)}
+
+                </div>
+            </div>
+        </article>
+    );
 }
+
 
 const Projects = () => {
     const [filter, setFilter] = useState([]);

@@ -38,9 +38,11 @@ const Skills = () => {
 
 
 
-                <Skill name="Python" x="-5vw" y="-9vw" />
+                <Skill name="Python" x="-5vw" y="-10vw" />
                 <Skill name="Pandas" x="-22vw" y="-4vw" />
                 <Skill name="SQL" x="20vw" y="0vw" />
+                <Skill name="Power BI" x="30vw" y="5vw" />
+                <Skill name="Excel" x="10vw" y="9vw" />
                 <Skill name="NumPy" x="-10vw" y="8vw" />
                 <Skill name="Scikit-learn" x="9vw" y="-19vw" />
                 <Skill name="Keras" x="-10vw" y="20vw" />
@@ -50,6 +52,7 @@ const Skills = () => {
                 <Skill name="Streamlit" x="30vw" y="-8vw" />
                 <Skill name="Github" x="-25vw" y="15vw" />
                 <Skill name="Jupyter" x="5vw" y="20vw" />
+                
                 {/*<Skill name="TensorFlow" x="8vw" y="-18vw" />
                 <Skill name="PyTorch" x="-22vw" y="-8vw" />
                 <Skill name="Tableau" x="18vw" y="-20vw" />
